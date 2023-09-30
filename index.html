@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/words.css">
+  <link rel="stylesheet" href="css/img.css">
+  <title>My projects</title>
+</head>
+<body>
+  <div class="wrapper" id="myProjects">
+
+    <div class="sheet sheet_1"> 
+       Hover & Click to Enter
+      <img src="img/Cover.png" alt="Book Cover Image">
+    </div>
+    <div class="sheet sheet_2">
+    </div>
+    <div class="sheet sheet_3">
+    </div>
+  </div>
+  
+  <div class="words">
+    <p>
+      Small, fun project to demonstrate some CSS3 skills and basic JS. This 3 page book opens up when you hover over it and sends you to my github when you click it.  
+    </p>
+
+
+  </div>
+  <script>
+    document.getElementById("myProjects").addEventListener("click", function() {
+  // Redirect to another webpage when clicked
+  window.location.href = "https://github.com/Nom07"; // My Github
+});
+
+  </script>
+</body>
+</html>
+
+<!-- By Naim Lindsay 09/29/2023 -->
